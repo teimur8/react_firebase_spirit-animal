@@ -1,11 +1,12 @@
 import firebase from 'firebase';
 
-const config = {
-  apiKey: '',
-  authDomain: '',
-  databaseURL: '',
-  storageBucket: '',
-  messagingSenderId: ''
+var config = {
+  apiKey: "AIzaSyAwv5UYcJ-94crcGzu9ySsfUQmH4GjLiGQ",
+  authDomain: "animal-1d959.firebaseapp.com",
+  databaseURL: "https://animal-1d959.firebaseio.com",
+  projectId: "animal-1d959",
+  storageBucket: "animal-1d959.appspot.com",
+  messagingSenderId: "638154077783"
 };
 
 firebase.initializeApp(config);
